@@ -28,3 +28,4 @@ O LED azul vai inicialmente assumir 3 intensidades (forte, médio e fraco) com i
 Em seguida, o brilho azul começará a aumentar e diminuir de forma contínua e suave.
 
 # Vídeo demonstrando e explicando o funcionamento da tarefa
+https://youtu.be/1X-0sHo4APA
