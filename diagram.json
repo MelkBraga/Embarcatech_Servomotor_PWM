@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "author": "Melk Braga",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-pi-pico-w", "id": "pico", "top": 150, "left": 100, "attrs": {} },
+    { "type": "wokwi-servo", "id": "servo1", "top": 170, "left": 270, "attrs": {} }
+  ],
+  "connections": [
+    [ "pico:GP22", "servo1:PWM", "blue", [ "h50", "v-30", "h0" ] ],
+    [ "pico:GND.8", "servo1:GND", "black", [ "h50", "v38", "h0" ] ],
+    [ "pico:3V3", "servo1:V+", "red", [ "h40", "v28", "h0" ] ]
+  ]
+}
